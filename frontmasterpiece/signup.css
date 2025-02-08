@@ -1,0 +1,185 @@
+.d {
+    margin-left: -44vw;
+    margin-top: -2vw;
+    width: 100vw;
+    height: 67vw;
+}
+
+.d1 {
+    width: 100vw;
+    margin-left: 43vw;
+}
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Register container */
+.register-container {
+    background-color: #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 450px;
+    padding: 2rem;
+    text-align: center;
+    margin-left: -49vw;
+    margin-right: auto; /* Adjusted */
+}
+
+/* Register Header */
+.register-header {
+    margin-bottom: 2rem;
+}
+
+.register-title {
+    font-size: 2.5rem;
+    color: #4E73DF;
+    font-weight: bold;
+}
+
+/* Form container */
+.register-form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input fields styling */
+.input-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+    width: 100%;
+}
+
+.input-label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.input-field {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+    border-color: #4E73DF;
+}
+
+/* Terms and Conditions checkbox */
+.terms-checkbox {
+    text-align: left;
+    margin: 1rem 0;
+}
+
+.terms-checkbox label {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+/* Button container */
+.button-container {
+    margin-top: 2rem;
+}
+
+.register-btn {
+    width: 100%;
+    padding: 1rem;
+    background-color: #4E73DF;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-btn:hover {
+    background-color: #2C4F8A;
+}
+
+/* Extra Links */
+.extra-links {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.extra-links a {
+    color: #4E73DF;
+    text-decoration: none;
+}
+
+.extra-links a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design for 425px width */
+@media (max-width: 425px) {
+    /* Adjust the container for small screens */
+    .register-container {
+        width: 90%;
+        padding: 1.5rem;
+    }
+
+    /* Make the title smaller for mobile */
+    .register-title {
+        font-size: 2rem;
+    }
+
+    /* Input fields should have a smaller font for mobile */
+    .input-field {
+        font-size: 0.9rem;
+        padding: 0.8rem;
+    }
+
+    /* Adjust button size for smaller screens */
+    .register-btn {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    /* Adjust links for mobile view */
+    .extra-links a {
+        font-size: 0.8rem;
+    }
+
+    /* Fix margin issues for mobile */
+    .d {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .register-container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .d1 {
+        width: 100%;
+    }
+
+    /* Ensure proper spacing */
+    .input-group {
+        margin-bottom: 1rem;
+    }
+
+    

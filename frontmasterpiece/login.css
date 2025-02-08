@@ -1,0 +1,176 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Login Image container */
+.a {
+    width: 100vw;
+    max-height: 60vh; /* Make the image container adjust for mobile */
+    margin-bottom: 2vw; /* Space between image and form */
+}
+
+.a1 {
+    width: 100%;
+    height: auto; /* Ensure image maintains its aspect ratio */
+    object-fit: cover; /* Keeps image responsive */
+}
+
+/* Login container */
+.login-container {
+    background: #ffffff;
+    padding: 2vw;
+    border-radius: 1vw;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 28vw;
+    width: 100%;
+    text-align: center;
+    margin-left: 60vw;
+    margin-top: -20vw;
+    margin-right: auto;
+}
+
+/* Title styling */
+.login-title {
+    font-size: 2.5rem;
+    color: #4E73DF;
+    margin-bottom: 5vw;
+    font-weight: bold;
+}
+
+/* Form container */
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input group styling */
+.input-group {
+    margin-bottom: 3vw;
+    text-align: left;
+}
+
+.input-label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 1vw;
+    display: block;
+}
+
+.input-field {
+    width: 100%;
+    padding: 1vw;
+    border: 1px solid #ddd;
+    border-radius: 1vw;
+    font-size: 1rem;
+    transition: border 0.3s ease;
+}
+
+.input-field:focus {
+    border-color: #4E73DF;
+    outline: none;
+}
+
+/* Button group */
+.btn-group {
+    margin-top: 5vw;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 1vw;
+    background: #4E73DF;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 1vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #2C4F8A;
+}
+
+/* Extra links */
+.extra-links {
+    margin-top: 1.5vw;
+    font-size: 0.9rem;
+}
+
+.extra-links a {
+    color: #4E73DF;
+    text-decoration: none;
+    margin-right: 1vw;
+}
+
+.extra-links a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .login-container {
+        width: 90%;
+        padding: 5vw;
+    }
+
+    .login-title {
+        font-size: 2rem;
+    }
+
+    .input-field {
+        font-size: 1rem;
+    }
+
+    .login-btn {
+        font-size: 1.1rem;
+    }
+
+    /* Adjust login image size */
+    .a1 {
+        height: auto;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+/* Very Small Screens (mobile phones) */
+@media (max-width: 480px) {
+    .login-container {
+        
+            width: 86%;
+            padding: 1px;
+            margin-top: -68vw;
+    }
+
+    .login-title {
+        font-size: 1.8rem;
+        margin-bottom: 4vw;
+    }
+
+    .input-field {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    .login-btn {
+        font-size: 1rem;
+    }
+
+    .extra-links {
+        font-size: 0.8rem;
+    }
+}

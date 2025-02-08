@@ -1,0 +1,562 @@
+/* *****nav***** */
+.container-fluid{
+  background-color: #FF9020;
+ margin-top: -1vw;
+
+
+}
+.navbar-brand img{
+ 
+ width: 8vw;
+ height: 8vw;
+ padding-top: 2vw;
+}
+.navbar-nav{
+ font-size: 1.5vw;
+  padding-left: 40vw;
+  padding-top: 2vw;
+  /* color: rgb(41, 41, 218); */
+}
+.nav-link {
+  font-size: 1vw;
+  color: rgb(39, 39, 212);
+}
+.nav-item{
+  padding-left: 1vw;
+}
+.iqone{
+
+width: 2vw;
+}
+.iqone1{
+width: 3vw;
+
+}
+.iqone2{
+width: 3vw;
+
+}
+/* *****finish nav****** */
+
+
+
+
+
+
+
+
+
+
+/* From Uiverse.io by eslam-hany */ 
+.thebook{
+    width: 70vw;
+    height: 40vw;
+    border-radius: 4vw;
+}
+
+.book {
+    margin-top: 2vw;
+    margin-left: 15vw;
+    position: relative;
+    border-radius: 4vw;
+    width: 70vw;
+    height: 40vw;
+    background-color: whitesmoke;
+    -webkit-box-shadow: 1px 1px 12px #000;
+    box-shadow: 1px 1px 12px #000;
+    -webkit-transform: preserve-3d;
+    -ms-transform: preserve-3d;
+    transform: preserve-3d;
+    -webkit-perspective: 2000px;
+    perspective: 2000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #000;
+  }
+  
+  .cover {
+    top: 0;
+    position: absolute;
+    background-color: rgba(212, 210, 204, 0.845);
+    width: 100%;
+    height: 100%;
+    border-radius: 4vw;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform-origin: 0;
+    -ms-transform-origin: 0;
+    transform-origin: 0;
+    -webkit-box-shadow: 1px 1px 12px #000;
+    box-shadow: 1px 1px 12px #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  
+  .book:hover .cover {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: rotatey(-80deg);
+    -ms-transform: rotatey(-80deg);
+    transform: rotatey(-80deg);
+  }
+  
+  p {
+    font-size: 7px;
+    
+  }
+
+
+
+
+
+
+.details{
+    margin-top: 5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+.fimg{
+    width: 70vw;
+    margin-left: 15vw;
+}
+.p1{
+    margin-top: -2vw;
+    margin-left: 3vw;
+}
+
+/* client section end */
+.f{
+  width: 100vw;
+  margin-top: 9vw;
+  /* margin-bottom: -50vw; */
+}
+.info_section {
+margin-bottom: -55vw;
+background-color: #FF9020;
+color: #37060A;
+padding: 45px 0 15px 0;
+}
+
+.info_section h4 {
+font-weight: 600;
+margin-bottom: 20px;
+}
+
+.info_section .info_col {
+margin-bottom: 30px;
+}
+
+.info_section .info_contact .contact_link_box {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+}
+
+.info_section .info_contact .contact_link_box a {
+margin: 5px 0;
+color: #37060A;
+}
+
+.info_section .info_contact .contact_link_box a i {
+margin-right: 5px;
+}
+
+.info_section .info_contact .contact_link_box a:hover {
+color: #f38b8b;
+}
+
+.info_section .info_social {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+
+.info_section .info_social a {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+/* color: #ffffff; */
+color: #37060A;
+border-radius: 100%;
+margin-right: 10px;
+font-size: 24px;
+}
+::placeholder {
+color: #37060A; /* Change this to your desired color */
+opacity: 50; /* Optional: Ensures the color is fully opaque */
+}
+.info_section .info_social a:hover {
+color: #37060A;
+}
+
+.info_section .info_links {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+-ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.info_section .info_links a {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+margin-bottom: 15px;
+color: #37060A;
+}
+
+.info_section .info_links a:hover {
+color: #8d1f28;
+}
+
+.info_section form input {
+border: none;
+border-bottom: 1px solid #ffffff;
+background-color: transparent;
+width: 100%;
+height: 45px;
+color: #ffffff;
+outline: none;
+}
+
+.info_section form input::-webkit-input-placeholder {
+color: #ffffff;
+}
+
+.info_section form input:-ms-input-placeholder {
+color: #ffffff;
+}
+
+.info_section form input::-ms-input-placeholder {
+color: #ffffff;
+}
+
+.info_section form input::placeholder {
+color: #ffffff;
+}
+
+.info_section form button {
+width: 100%;
+text-align: center;
+display: inline-block;
+padding: 10px 55px;
+background-color: #37060A;
+color: #ffffff;
+border-radius: 0;
+-webkit-transition: all 0.3s;
+transition: all 0.3s;
+border: none;
+margin-top: 15px;
+}
+
+.info_section form button:hover {
+background-color: #8d1f28;
+}
+
+/* footer section*/
+.footer_section {
+background-color:#FF9020 ;
+margin-top:54vw;
+position: relative;
+background-color: #FF9020;
+text-align: center;
+}
+
+.footer_section p {
+color: #37060A;
+padding: 25px 0;
+margin: 0;
+}
+
+.footer_section p a {
+color: inherit;
+}
+/************/
+
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #FF4500;  /* Bright Orange */
+  margin: 20px 0;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #2c2b2bd4;
+  
+}
+
+/* Container for All Sections */
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  padding: 30px;
+  background: #ff9020; /* Background gradient */
+}
+
+/* Each Section Styling */
+.section {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.section:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Animation for Section Header */
+.section-header h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #FF5722;
+  position: relative;
+  z-index: 2;
+}
+
+/* Animated Border Under Section Headers */
+.animated-border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 5px;
+  background-color: #FF5722;
+  animation: slide 0.6s ease-in-out infinite alternate;
+}
+
+@keyframes slide {
+  0% {
+      width: 60px;
+  }
+  100% {
+      width: 100%;
+  }
+}
+
+/* Hover Effects on Section Headers */
+.section-header h3:hover {
+  color: #FF4500;
+  transform: translateY(-5px);
+}
+
+/* Content Inside Each Section */
+.content {
+  margin-top: 20px;
+  padding-left: 5px;
+}
+
+.content p {
+  font-size: 1.2rem;
+  color: #555;
+  transition: transform 0.3s ease;
+}
+
+/* Fun Hover Effect for Content */
+.section:hover .content p {
+  transform: translateX(10px);
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .container {
+      grid-template-columns: 1fr;
+      padding: 15px;
+  }
+
+  .section {
+      margin: 10px 0;
+  }
+}
+
+/* Add some fun interactive color changes for the entire page */
+/* footer section*/
+.footer {
+  height: 40vw;
+  background-color: #FF9020;
+  padding: 50px 0 30px 0;
+  color: #37060A;
+  position: relative;
+}
+
+.footer h4 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.footer .info_col {
+  margin-bottom: 30px;
+}
+
+.footer .info_contact .contact_link_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .info_contact .contact_link_box a {
+  margin: 8px 0;
+  color: #37060A;
+  text-decoration: none;
+}
+
+.footer .info_contact .contact_link_box a i {
+  margin-right: 5px;
+}
+
+.footer .info_contact .contact_link_box a:hover {
+  color: #f38b8b;
+}
+
+.footer .info_social {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.footer .info_social a {
+  color: #37060A;
+  border-radius: 50%;
+  margin-right: 10px;
+  font-size: 24px;
+  padding: 10px;
+  background-color: #fff;
+  transition: 0.3s;
+}
+
+.footer .info_social a:hover {
+  background-color: #f38b8b;
+  color: white;
+}
+
+/* Footer Links Section */
+.footer .info_links a {
+  color: #37060A;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+.footer .info_links a:hover {
+  color: #8d1f28;
+}
+
+/* Footer Bottom */
+.footer_bottom {
+  background-color: #FF9800;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  margin-top: 50vw;
+}
+
+.footer_bottom p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Form Input Styles */
+.footer form input {
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  background-color: transparent;
+  width: 100%;
+  height: 45px;
+  color: #ffffff;
+  outline: none;
+}
+
+.footer form button {
+  width: 100%;
+  padding: 10px 55px;
+  background-color: #37060A;
+  color: #ffffff;
+  border-radius: 0;
+  transition: all 0.3s;
+  border: none;
+  margin-top: 15px;
+}
+
+.footer form button:hover {
+  background-color: #8d1f28;
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+  .footer .info_col {
+    margin-bottom: 30px;
+  }
+
+  .footer .info_link_box {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer .info_contact,
+  .footer .info_detail {
+    text-align: center;
+  }
+
+  .footer .info_social a {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+}

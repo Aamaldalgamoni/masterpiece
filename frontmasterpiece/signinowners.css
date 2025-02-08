@@ -1,0 +1,129 @@
+
+
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Sign-up container */
+.signup-container {
+    background-color: #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    padding: 2rem;
+    text-align: center;
+    margin-left: -80vw;
+}
+
+/* Sign-up title */
+.signup-title {
+    font-size: 2.5rem;
+    color: #4E73DF;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+/* Form container */
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input fields styling */
+.input-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+    border-color: #4E73DF;
+}
+
+/* Terms and Conditions checkbox */
+.terms-checkbox {
+    text-align: left;
+    margin: 1rem 0;
+}
+
+.terms-checkbox label {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+/* Button container */
+.signup-btn {
+    width: 100%;
+    padding: 1rem;
+    background-color: #4E73DF;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signup-btn:hover {
+    background-color: #2C4F8A;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+    .signup-container {
+        width: 90%;
+        padding: 1.5rem;
+    }
+
+    .signup-title {
+        font-size: 2rem;
+    }
+
+    .input-group input,
+    .input-group select {
+        font-size: 0.9rem;
+        padding: 0.8rem;
+    }
+
+    .signup-btn {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    .terms-checkbox label {
+        font-size: 0.8rem;
+    }
+}

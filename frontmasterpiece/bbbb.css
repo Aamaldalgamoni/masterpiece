@@ -1,0 +1,380 @@
+/* *****nav***** */
+.container-fluid{
+    background-color: #FF9020;
+   margin-top: -1vw;
+
+
+}
+.navbar-brand img{
+   
+   width: 8vw;
+   height: 8vw;
+   padding-top: 2vw;
+}
+.navbar-nav{
+   font-size: 1.5vw;
+    padding-left: 40vw;
+    padding-top: 2vw;
+    /* color: rgb(41, 41, 218); */
+}
+.nav-link {
+    font-size: 1vw;
+    color: rgb(39, 39, 212);
+}
+.nav-item{
+    padding-left: 1vw;
+}
+.iqone{
+
+  width: 2vw;
+}
+.iqone1{
+  width: 3vw;
+
+}
+.iqone2{
+  width: 3vw;
+
+}
+/**drop down menuo**/
+/* Style for the sign-in menu item */
+.nav-item {
+  position: relative;
+}
+
+/* Dropdown container */
+.dropdown-menu {
+  display: none;  /* Hide the dropdown by default */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+/* Show the dropdown when hovering over the Sign In button */
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+/* Style the select element */
+
+/* Optional: Style the link */
+.nav-link {
+  font-size: 1rem;
+  color: #333;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+/* On hover, change the link color */
+.nav-link:hover {
+  color: #4E73DF;
+}
+/********footer***/
+  /* Footer Section Styles */
+  .footer {
+    background-color: #FF9020;
+    padding: 50px 0 30px 0;
+    color: #37060A;
+    position: relative;
+  }
+  
+  .footer h4 {
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .footer .info_col {
+    margin-bottom: 30px;
+  }
+  
+  .footer .info_contact .contact_link_box {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer .info_contact .contact_link_box a {
+    margin: 8px 0;
+    color: #37060A;
+    text-decoration: none;
+  }
+  
+  .footer .info_contact .contact_link_box a i {
+    margin-right: 5px;
+  }
+  
+  .footer .info_contact .contact_link_box a:hover {
+    color: #f38b8b;
+  }
+  
+  .footer .info_social {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .footer .info_social a {
+    color: #37060A;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 24px;
+    padding: 10px;
+    background-color: #fff;
+    transition: 0.3s;
+  }
+  
+  .footer .info_social a:hover {
+    background-color: #f38b8b;
+    color: white;
+  }
+  
+  /* Footer Links Section */
+  .footer .info_links a {
+    color: #37060A;
+    margin-bottom: 15px;
+    text-decoration: none;
+  }
+  
+  .footer .info_links a:hover {
+    color: #8d1f28;
+  }
+  
+  /* Footer Bottom */
+  .footer_bottom {
+    background-color: #FF9800;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: -5vw;
+  }
+  
+  .footer_bottom p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  /* Form Input Styles */
+  .footer form input {
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background-color: transparent;
+    width: 100%;
+    height: 45px;
+    color: #ffffff;
+    outline: none;
+  }
+  
+  .footer form button {
+    width: 100%;
+    padding: 10px 55px;
+    background-color: #37060A;
+    color: #ffffff;
+    border-radius: 0;
+    transition: all 0.3s;
+    border: none;
+    margin-top: 15px;
+  }
+  
+  .footer form button:hover {
+    background-color: #8d1f28;
+  }
+  
+  /* Responsive Design for Small Screens */
+  @media (max-width: 768px) {
+    .footer .info_col {
+      margin-bottom: 30px;
+    }
+  
+    .footer .info_link_box {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer .info_contact,
+    .footer .info_detail {
+      text-align: center;
+    }
+  
+    .footer .info_social a {
+      font-size: 20px;
+      margin-right: 15px;
+    }
+  }
+/***cards**/
+/* Card Container */
+/* General Layout */
+/* Card container styling */
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+  flex-wrap: wrap;
+  margin-top: -3vw;
+  padding: 3vw;
+}
+
+/* General card styling */
+/* Card container styling */
+/* Card container styling */
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+  flex-wrap: wrap;
+  margin-top: -3vw;
+  padding: 3vw;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* General card styling */
+.card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3));
+  border-radius: 15px;
+  width: 280px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+  transform: translateY(0);
+}
+
+/* Elegant pastel card colors */
+.card.pastel-pink {
+  background: linear-gradient(135deg, #FFBCC1, #FFC7D3);
+}
+.card.pastel-blue {
+  background: linear-gradient(135deg, #A8D0E6, #F1F7FF);
+}
+.card.pastel-green {
+  background: linear-gradient(135deg, #D5F3E3, #A8E0B2);
+}
+
+/* Tip text styling */
+.card .tip {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #4C4C4C;
+  text-align: center;
+  margin: 25px 0;
+  line-height: 1.5;
+  transition: all 0.3s ease;
+}
+
+/* Explore button styling */
+.card .btn-link {
+  background-color: #fff;
+  color: #4C4C4C;
+  padding: 14px 28px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 500;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 2px solid #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Button hover effect */
+.card .btn-link:hover {
+  background-color: #F6A3A3;
+  color: #fff;
+  border: 2px solid #F6A3A3;
+  transform: scale(1.1);
+}
+
+/* Hover effect on cards */
+.card:hover {
+  transform: translateY(-15px) scale(1.05);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  transition: all 0.4s ease;
+  z-index: 10;
+}
+
+/* Elegant floating effect */
+.card:hover:before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Button hover animations */
+.card .btn-link {
+  transform: translateY(0);
+  transition: transform 0.2s ease;
+}
+
+.card:hover .btn-link {
+  transform: translateY(-5px);
+}
+
+/* Added animation for cards */
+.card-container {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(30px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@keyframes cardMove {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-10px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
+/* Card hover pulsing effect */
+.card:hover {
+  animation: cardMove 0.5s ease-in-out infinite;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .card-container {
+      gap: 5vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-container {
+      flex-direction: column;
+      gap: 4vw;
+  }
+  .card {
+      width: 90%;
+      margin-bottom: 20px;
+  }
+}

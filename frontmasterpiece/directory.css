@@ -1,0 +1,729 @@
+/* *****nav***** */
+.container-fluid{
+  background-color: #FF9020;
+ margin-top: -1vw;
+
+
+}
+.navbar-brand img{
+ 
+ width: 8vw;
+ height: 8vw;
+ padding-top: 2vw;
+}
+.navbar-nav{
+ font-size: 1.5vw;
+  padding-left: 40vw;
+  padding-top: 2vw;
+  /* color: rgb(41, 41, 218); */
+}
+.nav-link {
+  font-size: 1vw;
+  color: rgb(39, 39, 212);
+}
+.nav-item{
+  padding-left: 1vw;
+}
+.iqone{
+
+width: 2vw;
+}
+.iqone1{
+width: 3vw;
+
+}
+.iqone2{
+width: 3vw;
+
+}
+/* *******card***** */
+/* From Uiverse.io by dylanharriscameron */ 
+.card {
+    margin-left: 2vw;
+    margin-top: 5vw;
+    position: relative;
+    width: 40vw;
+    height: 37vw;
+    border-radius: 14px;
+    z-index: 1111;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    ;
+  }
+  
+  .bg {
+    position: absolute;
+    top: 1vw;
+    left: 2vw;
+    width: 35vw;
+    height: 35vw;
+    z-index: 2;
+    background: rgba(255, 255, 255, .95);
+    backdrop-filter: blur(24px);
+    border-radius: 2vw;
+    overflow: hidden;
+    outline: 2px solid white;
+  }
+  
+  .blob {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 10vw;
+    height: 30vw;
+    border-radius: 50%;
+    background-color: orange;
+    opacity: 1;
+    filter: blur(12px);
+    animation: blob-bounce 5s infinite ease;
+  }
+  
+  @keyframes blob-bounce {
+    0% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+  
+    25% {
+      transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+    }
+  
+    50% {
+      transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+    }
+  
+    75% {
+      transform: translate(-100%, -100%) translate3d(0, 100%, 0);
+    }
+  
+    100% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+  }
+  
+
+  /* 2 */
+  /* From Uiverse.io by dylanharriscameron */ 
+.card1 {
+    margin-left: 53vw;
+    margin-top: -37vw;
+    position: relative;
+    width: 40vw;
+    height: 37vw;
+    border-radius: 14px;
+    z-index: 1111;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff
+    ;
+  }
+  
+  .bg1 {
+    position: absolute;
+    top: 1vw;
+    left: 2vw;
+    width: 35vw;
+    height: 35vw;
+    z-index: 2;
+    background: rgba(255, 255, 255, .95);
+    backdrop-filter: blur(24px);
+    border-radius: 2vw;
+    overflow: hidden;
+    outline: 2px solid white;
+  }
+  
+  .blob1 {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 10vw;
+    height: 30vw;
+    border-radius: 50%;
+    background-color: orange;
+    opacity: 1;
+    filter: blur(12px);
+    animation: blob-bounce 5s infinite ease;
+  }
+  
+  @keyframes blob-bounce {
+    0% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+  
+    25% {
+      transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+    }
+  
+    50% {
+      transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+    }
+  
+    75% {
+      transform: translate(-100%, -100%) translate3d(0, 100%, 0);
+    }
+  
+    100% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+  }
+  /* 3 */
+
+
+  /* From Uiverse.io by dylanharriscameron */ 
+.card2 {
+    margin-left: 2vw;
+    margin-top: 5vw;
+    position: relative;
+    width: 40vw;
+    height: 37vw;
+    border-radius: 14px;
+    z-index: 1111;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff
+    ;
+  }
+  
+  .bg2{
+    position: absolute;
+    top: 1vw;
+    left: 2vw;
+    width: 35vw;
+    height: 35vw;
+    z-index: 2;
+    background: rgba(255, 255, 255, .95);
+    backdrop-filter: blur(24px);
+    border-radius: 2vw;
+    overflow: hidden;
+    outline: 2px solid white;
+  }
+  
+  .blob2 {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 10vw;
+    height: 30vw;
+    border-radius: 50%;
+    background-color: orange;
+    opacity: 1;
+    filter: blur(12px);
+    animation: blob-bounce 5s infinite ease;
+  }
+  
+  @keyframes blob-bounce {
+    0% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+  
+    25% {
+      transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+    }
+  
+    50% {
+      transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+    }
+  
+    75% {
+      transform: translate(-100%, -100%) translate3d(0, 100%, 0);
+    }
+  
+    100% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+  }
+  /* 4 */
+  /* From Uiverse.io by dylanharriscameron */ 
+.card3{
+    margin-left: 53vw;
+    margin-top: -37vw;
+    position: relative;
+    width: 40vw;
+    height: 37vw;
+    border-radius: 14px;
+    z-index: 1111;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff
+    ;
+  }
+  
+  .bg3 {
+    position: absolute;
+    top: 1vw;
+    left: 2vw;
+    width: 35vw;
+    height: 35vw;
+    z-index: 2;
+    background: rgba(255, 255, 255, .95);
+    backdrop-filter: blur(24px);
+    border-radius: 2vw;
+    overflow: hidden;
+    outline: 2px solid white;
+  }
+  
+  .blob3{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 10vw;
+    height: 30vw;
+    border-radius: 50%;
+    background-color: orange;
+    opacity: 1;
+    filter: blur(12px);
+    animation: blob-bounce 5s infinite ease;
+  }
+  
+  @keyframes blob-bounce {
+    0% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+  
+    25% {
+      transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+    }
+  
+    50% {
+      transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+    }
+  
+    75% {
+      transform: translate(-100%, -100%) translate3d(0, 100%, 0);
+    }
+  
+    100% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+  }
+  
+  /* 5 */
+  /* From Uiverse.io by dylanharriscameron */ 
+.card4 {
+    margin-left: 2vw;
+    margin-top: 5vw;
+    position: relative;
+    width: 40vw;
+    height: 37vw;
+    border-radius: 14px;
+    z-index: 1111;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    ;
+  }
+  
+  .bg4 {
+    position: absolute;
+    top: 1vw;
+    left: 2vw;
+    width: 35vw;
+    height: 35vw;
+    z-index: 2;
+    background: rgba(255, 255, 255, .95);
+    backdrop-filter: blur(24px);
+    border-radius: 2vw;
+    overflow: hidden;
+    outline: 2px solid white;
+  }
+  
+  .blob4 {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 10vw;
+    height: 30vw;
+    border-radius: 50%;
+    background-color: orange;
+    opacity: 1;
+    filter: blur(12px);
+    animation: blob-bounce 5s infinite ease;
+  }
+  
+  @keyframes blob-bounce {
+    0% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+  
+    25% {
+      transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+    }
+  
+    50% {
+      transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+    }
+  
+    75% {
+      transform: translate(-100%, -100%) translate3d(0, 100%, 0);
+    }
+  
+    100% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+  }
+  /* 6 */
+
+  /* From Uiverse.io by dylanharriscameron */ 
+.card5 {
+    margin-left: 53vw;
+    margin-top: -37vw;
+    position: relative;
+    width: 40vw;
+    height: 37vw;
+    border-radius: 14px;
+    z-index: 1111;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff
+    ;
+  }
+  
+  .bg5 {
+    position: absolute;
+    top: 1vw;
+    left: 2vw;
+    width: 35vw;
+    height: 35vw;
+    z-index: 2;
+    background: rgba(255, 255, 255, .95);
+    backdrop-filter: blur(24px);
+    border-radius: 2vw;
+    overflow: hidden;
+    outline: 2px solid white;
+  }
+  
+  .blob5 {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 10vw;
+    height: 30vw;
+    border-radius: 50%;
+    background-color: orange;
+    opacity: 1;
+    filter: blur(12px);
+    animation: blob-bounce 5s infinite ease;
+  }
+  
+  @keyframes blob-bounce {
+    0% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+  
+    25% {
+      transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+    }
+  
+    50% {
+      transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+    }
+  
+    75% {
+      transform: translate(-100%, -100%) translate3d(0, 100%, 0);
+    }
+  
+    100% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+  }
+  
+  /* client section end */
+  .f{
+    margin-top: 11vw;
+    /* margin-bottom: -50vw; */
+  }
+.info_section {
+  margin-bottom: -5vw;
+  background-color: #FF9020;
+  color: #37060A;
+  padding: 45px 0 15px 0;
+}
+
+.info_section h4 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.info_section .info_col {
+  margin-bottom: 30px;
+}
+
+.info_section .info_contact .contact_link_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.info_section .info_contact .contact_link_box a {
+  margin: 5px 0;
+  color: #37060A;
+}
+
+.info_section .info_contact .contact_link_box a i {
+  margin-right: 5px;
+}
+
+.info_section .info_contact .contact_link_box a:hover {
+  color: #f38b8b;
+}
+
+.info_section .info_social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.info_section .info_social a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* color: #ffffff; */
+  color: #37060A;
+  border-radius: 100%;
+  margin-right: 10px;
+  font-size: 24px;
+}
+::placeholder {
+  color: #37060A; /* Change this to your desired color */
+  opacity: 50; /* Optional: Ensures the color is fully opaque */
+}
+.info_section .info_social a:hover {
+  color: #37060A;
+}
+
+.info_section .info_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.info_section .info_links a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+  color: #37060A;
+}
+
+.info_section .info_links a:hover {
+  color: #8d1f28;
+}
+
+.info_section form input {
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  background-color: transparent;
+  width: 100%;
+  height: 45px;
+  color: #ffffff;
+  outline: none;
+}
+
+.info_section form input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.info_section form input:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.info_section form input::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.info_section form input::placeholder {
+  color: #ffffff;
+}
+
+.info_section form button {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 55px;
+  background-color: #37060A;
+  color: #ffffff;
+  border-radius: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: none;
+  margin-top: 15px;
+}
+
+.info_section form button:hover {
+  background-color: #8d1f28;
+}
+
+/* footer section*/
+.footer {
+  background-color: #FF9020;
+  padding: 50px 0 30px 0;
+  color: #37060A;
+  position: relative;
+}
+
+.footer h4 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.footer .info_col {
+  margin-bottom: 30px;
+}
+
+.footer .info_contact .contact_link_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .info_contact .contact_link_box a {
+  margin: 8px 0;
+  color: #37060A;
+  text-decoration: none;
+}
+
+.footer .info_contact .contact_link_box a i {
+  margin-right: 5px;
+}
+
+.footer .info_contact .contact_link_box a:hover {
+  color: #f38b8b;
+}
+
+.footer .info_social {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.footer .info_social a {
+  color: #37060A;
+  border-radius: 50%;
+  margin-right: 10px;
+  font-size: 24px;
+  padding: 10px;
+  background-color: #fff;
+  transition: 0.3s;
+}
+
+.footer .info_social a:hover {
+  background-color: #f38b8b;
+  color: white;
+}
+
+/* Footer Links Section */
+.footer .info_links a {
+  color: #37060A;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+.footer .info_links a:hover {
+  color: #8d1f28;
+}
+
+/* Footer Bottom */
+.footer_bottom {
+  background-color: #FF9800;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+.footer_bottom p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Form Input Styles */
+.footer form input {
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  background-color: transparent;
+  width: 100%;
+  height: 45px;
+  color: #ffffff;
+  outline: none;
+}
+
+.footer form button {
+  width: 100%;
+  padding: 10px 55px;
+  background-color: #37060A;
+  color: #ffffff;
+  border-radius: 0;
+  transition: all 0.3s;
+  border: none;
+  margin-top: 15px;
+}
+
+.footer form button:hover {
+  background-color: #8d1f28;
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+  .footer .info_col {
+    margin-bottom: 30px;
+  }
+
+  .footer .info_link_box {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer .info_contact,
+  .footer .info_detail {
+    text-align: center;
+  }
+
+  .footer .info_social a {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+}
